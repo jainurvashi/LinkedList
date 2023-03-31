@@ -10,7 +10,6 @@ public class CheckifLinkedListisPalindrome {
         ListNode head4 =  new ListNode(1);
         ListNode head5 =  new ListNode(1,head4);
         isPalindrome(head5);
-        //   System.out.println(reverseBetween(head5,2,4).val);
     }
     static  boolean isPalindrome(ListNode head)
     {
